@@ -19,13 +19,14 @@
         justify-content: start
         gap: 1rem
 
-        
-            
+        &::after
+           @include mixins.gradient-border
+           
 
     p
         color: variables.$text-color-secondary
         margin-bottom: 1rem
-        line-height: 1.3rem
+        line-height: 1.4rem
 
     .btn
         align-self: start

@@ -1,7 +1,8 @@
-import SocialNetworks from "./SocialNetworks";
-import Avatar from "../img/eu6.jpg";
+import SocialNetworks from "./SocialNetworks"
+import Avatar from "../img/eu1.jpg";
 import "../styles/components/sidebar.sass";
 import InformationContainer from "./InformationContainer";
+
 
 
 const SideBar = () => {
