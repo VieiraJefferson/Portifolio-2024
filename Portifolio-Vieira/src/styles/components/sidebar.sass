@@ -11,16 +11,16 @@
         flex-direction: column
         text-align: center
         position: relative
-        padding:  0
-        justify-content: space-between
+        padding: 3rem 0 
+       
 
 
         img 
-            max-width: 70%
+            max-width: 60%
             border-radius: variables.$container-border-radius
             position: relative
-            top: 3rem
-            margin-bottom: -13rem
+            top: -2rem
+          
 
 
     
@@ -28,17 +28,19 @@
             color: variables.$text-color-secondary 
             background-color: variables.$bg-color-secondary 
             border-radius: variables.$card-border-radius 
-            margin-top: 12rem
+            margin-top: -1rem
+            margin-bottom: 1rem
             padding: .8rem 1.2rem 
 
         .btn-download
             @include mixins.btn
-            margin-top: -6rem
+            margin-top: 2rem
             margin-bottom: 3rem
 
             .text-download
                 color: variables.$text-color
-                font-size: 18px
+                font: bold
+                
                 text-decoration: none
             
         .btn
